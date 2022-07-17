@@ -1,33 +1,33 @@
 body{
     margin: 0;
-    background-color: black;
+    background-color: rgb(31, 31, 31);
 }
 .container{
-    width: 1388px;
-    height: 827px;
-    margin: 100px auto;
+    width: 90%;
+    height: 90vh;
+    margin: 5vh auto 0;
     background-color: #5E2EAB;
     border-radius: 30px;
     box-sizing: border-box;
-    padding: 140px;
-}
-.main{
-    width: 100%;
+    padding: 1% 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .img{
     background-image: url(./image/cibo.jpg);
-    width: 448px;
-    height: 547px;
+    width: 40%;
+    height: 100%;
     border-radius: 20px;
     background-position: center;
     background-size: cover;
 }
 .right{
-    width: 560px;
-    height: 547px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
 }
 .p1{
     font-family: 'DM Sans', sans-serif;
@@ -47,4 +47,7 @@ body{
 a{
     color: #ffa500;
     text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
 }
